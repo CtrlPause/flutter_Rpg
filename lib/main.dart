@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/home/home.dart';
+import 'package:myapp/theme.dart';
 
 
 void main() {
-  runApp(const MaterialApp(
-    home: Home(),
+  runApp(MaterialApp(
+    theme: primaryTheme,
+    home: const Home(),
   ));
 }
 
-// sandbox od
+// sandbox
 class Sandbox extends StatelessWidget {
   const Sandbox({super.key});
 
